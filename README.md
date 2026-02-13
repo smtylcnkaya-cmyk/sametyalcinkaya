@@ -1,10 +1,5 @@
 # sametyalcinkaya
 Geleceği İnşa Eden Çözümler
-Mükemmel! Integration playbook'ları aldım. Şimdi tüm projeyi inşa ediyorum! 🏗️
-Action: file_editor create /app/auth_testing.md --file-text "# Auth-Gated App Testing Playbook
-
-## Step 1: Create Test User & Session
-```bash
 mongosh --eval \"
 use('test_database');
 var userId = 'test-user-' + Date.now();
@@ -142,5 +137,3 @@ INFO:     Application startup complete.
 
 
 Fetching debug logs for mongodb
-
-tail: cannot open '/var/log/supervisor/mongodb*.log' for reading: No such file or directory
